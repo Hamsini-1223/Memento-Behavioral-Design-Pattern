@@ -1,0 +1,32 @@
+{
+  "name": "memento-pattern-demo",
+  "version": "1.0.0",
+  "description": "TypeScript implementation of Memento Design Pattern using Text Editor example",
+  "main": "dist/demo.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/demo.js",
+    "dev": "ts-node demo.ts",
+    "demo": "ts-node demo.ts --demo",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "design-pattern",
+    "memento",
+    "behavioral-pattern",
+    "undo-redo"
+  ],
+  "author": "Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
